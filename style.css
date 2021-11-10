@@ -34,9 +34,6 @@ html, body {
     top: 0px;
     width: 100%;
 }
-.sticky + .content {
-    padding-top: 60px;
-}
 /* Body */
 section {
     padding-top: 50px;
@@ -48,11 +45,13 @@ section h1 {
     background-color: coral;
 }
 section p {
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 20px;
     padding-top: 10px;
     border-radius: 30px;
     background-color: green;
-    width: 100%;
+    width: 90%;
     height: 100%;
     min-width: 500px;
     min-height: 2em;
@@ -68,7 +67,8 @@ section p {
     border-right: 1px solid black;
 }
 footer {
-    padding-top: 50px;
+    position: relative;
+    bottom: 0;
     background-color: purple;
     min-height:50px;
 }
