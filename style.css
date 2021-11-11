@@ -6,7 +6,11 @@ html, body {
 }
 .header {
     padding: 30px;
+    margin: 30px;
     text-align: left;
+    background-color: rgba(100, 148, 237, 0.486);
+    border-radius: 30px;
+    height: 80vh;
 }
 /* Nav Bar */
 .navbar {
@@ -53,7 +57,7 @@ section h1 {
     padding-left: 30px;
     background-color: rgba(30, 33, 235, 0.411);
 }
-section p.whole {
+.whole {
     background-color: rgba(0, 255, 255, 0.527);
     border-radius: 30px;
     margin-left: auto;
@@ -64,14 +68,14 @@ section p.whole {
     min-width: 500px;
     min-height: 2em;
 }
-section p.hleft {
+.hleft {
     margin-left: 5%;
     padding: 1%;
     width: 40%;
     float: left;
     background-color: rgba(255, 255, 0, 0.432);
 }
-section p.hright {
+.hright {
     margin-right: 5%;
     padding: 20px;
     width: 40%;
