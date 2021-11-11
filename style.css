@@ -5,12 +5,22 @@ html, body {
     min-height: 100%;
 }
 .header {
+    position:static;
     padding: 30px;
     margin: 30px;
     text-align: left;
     background-color: rgba(100, 148, 237, 0.486);
     border-radius: 30px;
     height: 80vh;
+    overflow: hidden;
+}
+.header h1 h2 {
+    position: fixed;
+}
+.profilepic{
+    border-radius: 50%;
+    height: 70vh;
+    width: 60vh;
 }
 /* Nav Bar */
 .navbar {
