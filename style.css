@@ -4,6 +4,13 @@
 html, body {
     min-height: 100%;
 }
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHLgVS6Kd5OGJvGiv6EFH4SKaQwApm7aSlA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    
+}
 .header {
     padding: 30px;
     margin: 30px;
@@ -29,6 +36,11 @@ html, body {
     text-align: center;
     text-decoration: none;
     padding: 14px 16px;
+}
+.navbar a:hover {
+    background-color: #5661da65;
+    border-radius:20px;
+    transition: 0.6s;
 }
 .active {
     background-color: #5661dac9;
@@ -56,15 +68,15 @@ section {
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 30px;
-    background-color: rgba(230, 233, 240, 0.753);
+    background-color: rgba(230, 233, 240, 0.9);
     height: 80vh;
 }
 section h1 {
     padding-left: 30px;
-    background-color: rgba(30, 33, 235, 0.411);
+    background-color: rgba(30, 33, 235, 0.4);
 }
 .whole {
-    background-color: rgba(0, 255, 255, 0.527);
+    background-color: rgba(0, 255, 255, 0.5);
     border-radius: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -79,14 +91,14 @@ section h1 {
     padding: 1%;
     width: 40%;
     float: left;
-    background-color: rgba(255, 255, 0, 0.432);
+    background-color: rgba(255, 255, 0, 0.5);
 }
 .hright {
     margin-right: 5%;
     padding: 20px;
     width: 40%;
     float: right;
-    background-color: rgba(255, 255, 0, 0.432);
+    background-color: rgba(255, 255, 0, 0.5);
 }
 #contact table {
     margin-left: auto;
@@ -101,7 +113,7 @@ section h1 {
 footer {
     position: relative;
     bottom: 0;
-    background-color: rgba(201, 97, 201, 0.651);
+    background-color: rgba(201, 97, 201, 0.9);
     min-height:50px;
 }
 footer p {
