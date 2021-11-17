@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
-    const sections = document.querySelectorAll("section");
+    const sections = document.querySelectorAll("p.anchor");
     const navBar = document.querySelectorAll(".container table tr td");
     window.onscroll = () => {
         var current = "";

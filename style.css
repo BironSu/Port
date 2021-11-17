@@ -4,9 +4,26 @@
 html, body {
     min-height: 100%;
 }
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHLgVS6Kd5OGJvGiv6EFH4SKaQwApm7aSlA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    
+}
 .header {
     padding: 30px;
+    margin: 30px;
     text-align: left;
+    background-color: rgba(100, 148, 237, 0.486);
+    border-radius: 30px;
+    height: 80vh;
+    overflow: hidden;
+}
+.profilepic{
+    border-radius: 50%;
+    height: 70vh;
+    width: 60vh;
 }
 /* Nav Bar */
 .navbar {
@@ -14,11 +31,17 @@ html, body {
     background-color: rgba(135, 207, 235, 0.99);
 }
 .navbar a {
+    font-weight: bold;
     float: left;
     display: block;
     text-align: center;
     text-decoration: none;
     padding: 14px 16px;
+}
+.navbar a:hover {
+    background-color: #5661da65;
+    border-radius:20px;
+    transition: 0.6s;
 }
 .active {
     background-color: #5661dac9;
@@ -35,33 +58,50 @@ html, body {
     width: 100%;
 }
 /* Body */
-section {
-    margin-top: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-radius: 30px;
-    background-color: rgba(230, 233, 240, 0.753);
-    height: 80vh;
-}
 p.anchor {
     display: block;
     position: relative;
     top: -65px;
     visibility: hidden;
 }
+section {
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    background-color: rgba(230, 233, 240, 0.99);
+    height: 80vh;
+}
 section h1 {
     padding-left: 30px;
-    background-color: rgba(30, 33, 235, 0.411);
+    background-color: rgba(30, 33, 235, 0.4);
 }
-section p.whole {
+.whole {
+    background-color: rgba(0, 255, 255, 0.5);
+    border-radius: 30px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-top: 10px;
+    padding: 20px;
     width: 90%;
-    height: 100%;
+    height: 80%;
     min-width: 500px;
     min-height: 2em;
+}
+.hleft {
+    margin-left: 5%;
+    padding: 1%;
+    width: 40%;
+    float: left;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 0, 0.5);
+}
+.hright {
+    margin-right: 5%;
+    padding: 20px;
+    width: 40%;
+    float: right;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 0, 0.5);
 }
 #contact table {
     margin-left: auto;
@@ -76,7 +116,7 @@ section p.whole {
 footer {
     position: relative;
     bottom: 0;
-    background-color: rgba(201, 97, 201, 0.651);
+    background-color: rgba(201, 97, 201, 0.9);
     min-height:50px;
 }
 footer p {
